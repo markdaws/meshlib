@@ -8,8 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		4DE39FDE1FF40F3B006DD7F7 /* MeshLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE39FD41FF40F3B006DD7F7 /* MeshLib.framework */; };
-		4DE39FE31FF40F3B006DD7F7 /* MeshLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FE21FF40F3B006DD7F7 /* MeshLibTests.swift */; };
-		4DE39FE51FF40F3B006DD7F7 /* MeshLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE39FD71FF40F3B006DD7F7 /* MeshLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE39FF51FF40F6A006DD7F7 /* EdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FEF1FF40F6A006DD7F7 /* EdgeTests.swift */; };
+		4DE39FF61FF40F6A006DD7F7 /* NodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FF01FF40F6A006DD7F7 /* NodeTests.swift */; };
+		4DE39FF71FF40F6A006DD7F7 /* GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FF11FF40F6A006DD7F7 /* GeometryTests.swift */; };
+		4DE39FF81FF40F6A006DD7F7 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FF21FF40F6A006DD7F7 /* TriangleTests.swift */; };
+		4DE39FF91FF40F6A006DD7F7 /* MeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FF31FF40F6A006DD7F7 /* MeshTests.swift */; };
+		4DE39FFA1FF40F6A006DD7F7 /* FaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FF41FF40F6A006DD7F7 /* FaceTests.swift */; };
+		4DE3A00C1FF40FC0006DD7F7 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFC1FF40FC0006DD7F7 /* Face.swift */; };
+		4DE3A00D1FF40FC0006DD7F7 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFD1FF40FC0006DD7F7 /* Geometry.swift */; };
+		4DE3A00E1FF40FC0006DD7F7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFE1FF40FC0006DD7F7 /* Node.swift */; };
+		4DE3A00F1FF40FC0006DD7F7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFF1FF40FC0006DD7F7 /* Utils.swift */; };
+		4DE3A0101FF40FC0006DD7F7 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0001FF40FC0006DD7F7 /* Primitive.swift */; };
+		4DE3A0111FF40FC0006DD7F7 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0011FF40FC0006DD7F7 /* Triangle.swift */; };
+		4DE3A0121FF40FC0006DD7F7 /* GeometryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0021FF40FC0006DD7F7 /* GeometryFactory.swift */; };
+		4DE3A0131FF40FC0006DD7F7 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0031FF40FC0006DD7F7 /* Edge.swift */; };
+		4DE3A0141FF40FC0006DD7F7 /* Basis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0051FF40FC0006DD7F7 /* Basis.swift */; };
+		4DE3A0151FF40FC0006DD7F7 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0061FF40FC0006DD7F7 /* Math.swift */; };
+		4DE3A0161FF40FC0006DD7F7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0071FF40FC0006DD7F7 /* Plane.swift */; };
+		4DE3A0171FF40FC0006DD7F7 /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0081FF40FC0006DD7F7 /* Ray.swift */; };
+		4DE3A0181FF40FC0006DD7F7 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0091FF40FC0006DD7F7 /* Mesh.swift */; };
+		4DE3A0191FF40FC0006DD7F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A00B1FF40FC0006DD7F7 /* Extensions.swift */; };
+		4DE3A01B1FF41035006DD7F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE3A01A1FF41035006DD7F7 /* Info.plist */; };
+		4DE3A01F1FF4116B006DD7F7 /* MeshLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE39FD71FF40F3B006DD7F7 /* MeshLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE3A02F1FF411FB006DD7F7 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0031FF40FC0006DD7F7 /* Edge.swift */; };
+		4DE3A0301FF411FE006DD7F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A00B1FF40FC0006DD7F7 /* Extensions.swift */; };
+		4DE3A0311FF41201006DD7F7 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFC1FF40FC0006DD7F7 /* Face.swift */; };
+		4DE3A0321FF41205006DD7F7 /* Basis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0051FF40FC0006DD7F7 /* Basis.swift */; };
+		4DE3A0331FF41208006DD7F7 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0061FF40FC0006DD7F7 /* Math.swift */; };
+		4DE3A0341FF4120B006DD7F7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0071FF40FC0006DD7F7 /* Plane.swift */; };
+		4DE3A0351FF4120D006DD7F7 /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0081FF40FC0006DD7F7 /* Ray.swift */; };
+		4DE3A0361FF41214006DD7F7 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFD1FF40FC0006DD7F7 /* Geometry.swift */; };
+		4DE3A0371FF41217006DD7F7 /* GeometryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0021FF40FC0006DD7F7 /* GeometryFactory.swift */; };
+		4DE3A0381FF4121B006DD7F7 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0091FF40FC0006DD7F7 /* Mesh.swift */; };
+		4DE3A0391FF4121E006DD7F7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFE1FF40FC0006DD7F7 /* Node.swift */; };
+		4DE3A03A1FF41222006DD7F7 /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0001FF40FC0006DD7F7 /* Primitive.swift */; };
+		4DE3A03B1FF41225006DD7F7 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A0011FF40FC0006DD7F7 /* Triangle.swift */; };
+		4DE3A03C1FF41228006DD7F7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39FFF1FF40FC0006DD7F7 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +59,30 @@
 /* Begin PBXFileReference section */
 		4DE39FD41FF40F3B006DD7F7 /* MeshLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeshLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE39FD71FF40F3B006DD7F7 /* MeshLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeshLib.h; sourceTree = "<group>"; };
-		4DE39FD81FF40F3B006DD7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DE39FDD1FF40F3B006DD7F7 /* MeshLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE39FE21FF40F3B006DD7F7 /* MeshLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibTests.swift; sourceTree = "<group>"; };
 		4DE39FE41FF40F3B006DD7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE39FEF1FF40F6A006DD7F7 /* EdgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeTests.swift; sourceTree = "<group>"; };
+		4DE39FF01FF40F6A006DD7F7 /* NodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeTests.swift; sourceTree = "<group>"; };
+		4DE39FF11FF40F6A006DD7F7 /* GeometryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryTests.swift; sourceTree = "<group>"; };
+		4DE39FF21FF40F6A006DD7F7 /* TriangleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
+		4DE39FF31FF40F6A006DD7F7 /* MeshTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshTests.swift; sourceTree = "<group>"; };
+		4DE39FF41FF40F6A006DD7F7 /* FaceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceTests.swift; sourceTree = "<group>"; };
+		4DE39FFC1FF40FC0006DD7F7 /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		4DE39FFD1FF40FC0006DD7F7 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		4DE39FFE1FF40FC0006DD7F7 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		4DE39FFF1FF40FC0006DD7F7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4DE3A0001FF40FC0006DD7F7 /* Primitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		4DE3A0011FF40FC0006DD7F7 /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		4DE3A0021FF40FC0006DD7F7 /* GeometryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryFactory.swift; sourceTree = "<group>"; };
+		4DE3A0031FF40FC0006DD7F7 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		4DE3A0051FF40FC0006DD7F7 /* Basis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basis.swift; sourceTree = "<group>"; };
+		4DE3A0061FF40FC0006DD7F7 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		4DE3A0071FF40FC0006DD7F7 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		4DE3A0081FF40FC0006DD7F7 /* Ray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
+		4DE3A0091FF40FC0006DD7F7 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		4DE3A00B1FF40FC0006DD7F7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4DE3A01A1FF41035006DD7F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE3A01C1FF410C4006DD7F7 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +107,7 @@
 		4DE39FCA1FF40F3B006DD7F7 = {
 			isa = PBXGroup;
 			children = (
-				4DE39FD61FF40F3B006DD7F7 /* MeshLib */,
+				4DE39FFB1FF40F99006DD7F7 /* Sources */,
 				4DE39FE11FF40F3B006DD7F7 /* MeshLibTests */,
 				4DE39FD51FF40F3B006DD7F7 /* Products */,
 			);
@@ -68,22 +122,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DE39FD61FF40F3B006DD7F7 /* MeshLib */ = {
-			isa = PBXGroup;
-			children = (
-				4DE39FD71FF40F3B006DD7F7 /* MeshLib.h */,
-				4DE39FD81FF40F3B006DD7F7 /* Info.plist */,
-			);
-			path = MeshLib;
-			sourceTree = "<group>";
-		};
 		4DE39FE11FF40F3B006DD7F7 /* MeshLibTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DE39FE21FF40F3B006DD7F7 /* MeshLibTests.swift */,
+				4DE39FEF1FF40F6A006DD7F7 /* EdgeTests.swift */,
+				4DE39FF41FF40F6A006DD7F7 /* FaceTests.swift */,
+				4DE39FF11FF40F6A006DD7F7 /* GeometryTests.swift */,
+				4DE39FF31FF40F6A006DD7F7 /* MeshTests.swift */,
+				4DE39FF01FF40F6A006DD7F7 /* NodeTests.swift */,
+				4DE39FF21FF40F6A006DD7F7 /* TriangleTests.swift */,
 				4DE39FE41FF40F3B006DD7F7 /* Info.plist */,
+				4DE3A01C1FF410C4006DD7F7 /* bridging-header.h */,
 			);
 			path = MeshLibTests;
+			sourceTree = "<group>";
+		};
+		4DE39FFB1FF40F99006DD7F7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3A01A1FF41035006DD7F7 /* Info.plist */,
+				4DE3A0041FF40FC0006DD7F7 /* Math */,
+				4DE3A0031FF40FC0006DD7F7 /* Edge.swift */,
+				4DE3A00B1FF40FC0006DD7F7 /* Extensions.swift */,
+				4DE39FFC1FF40FC0006DD7F7 /* Face.swift */,
+				4DE39FFD1FF40FC0006DD7F7 /* Geometry.swift */,
+				4DE3A0021FF40FC0006DD7F7 /* GeometryFactory.swift */,
+				4DE3A0091FF40FC0006DD7F7 /* Mesh.swift */,
+				4DE39FFE1FF40FC0006DD7F7 /* Node.swift */,
+				4DE3A0001FF40FC0006DD7F7 /* Primitive.swift */,
+				4DE3A0011FF40FC0006DD7F7 /* Triangle.swift */,
+				4DE39FFF1FF40FC0006DD7F7 /* Utils.swift */,
+				4DE39FD71FF40F3B006DD7F7 /* MeshLib.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4DE3A0041FF40FC0006DD7F7 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3A0051FF40FC0006DD7F7 /* Basis.swift */,
+				4DE3A0061FF40FC0006DD7F7 /* Math.swift */,
+				4DE3A0071FF40FC0006DD7F7 /* Plane.swift */,
+				4DE3A0081FF40FC0006DD7F7 /* Ray.swift */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +175,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE39FE51FF40F3B006DD7F7 /* MeshLib.h in Headers */,
+				4DE3A01F1FF4116B006DD7F7 /* MeshLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +234,7 @@
 					};
 					4DE39FDC1FF40F3B006DD7F7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -186,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE3A01B1FF41035006DD7F7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +280,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE3A0321FF41205006DD7F7 /* Basis.swift in Sources */,
+				4DE3A03B1FF41225006DD7F7 /* Triangle.swift in Sources */,
+				4DE3A02F1FF411FB006DD7F7 /* Edge.swift in Sources */,
+				4DE3A03C1FF41228006DD7F7 /* Utils.swift in Sources */,
+				4DE3A0311FF41201006DD7F7 /* Face.swift in Sources */,
+				4DE3A0391FF4121E006DD7F7 /* Node.swift in Sources */,
+				4DE3A0351FF4120D006DD7F7 /* Ray.swift in Sources */,
+				4DE3A0381FF4121B006DD7F7 /* Mesh.swift in Sources */,
+				4DE3A0301FF411FE006DD7F7 /* Extensions.swift in Sources */,
+				4DE3A03A1FF41222006DD7F7 /* Primitive.swift in Sources */,
+				4DE3A0361FF41214006DD7F7 /* Geometry.swift in Sources */,
+				4DE3A0371FF41217006DD7F7 /* GeometryFactory.swift in Sources */,
+				4DE3A0341FF4120B006DD7F7 /* Plane.swift in Sources */,
+				4DE3A0331FF41208006DD7F7 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +301,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE39FE31FF40F3B006DD7F7 /* MeshLibTests.swift in Sources */,
+				4DE3A00C1FF40FC0006DD7F7 /* Face.swift in Sources */,
+				4DE39FF51FF40F6A006DD7F7 /* EdgeTests.swift in Sources */,
+				4DE3A0131FF40FC0006DD7F7 /* Edge.swift in Sources */,
+				4DE39FF71FF40F6A006DD7F7 /* GeometryTests.swift in Sources */,
+				4DE3A0161FF40FC0006DD7F7 /* Plane.swift in Sources */,
+				4DE3A0121FF40FC0006DD7F7 /* GeometryFactory.swift in Sources */,
+				4DE3A0111FF40FC0006DD7F7 /* Triangle.swift in Sources */,
+				4DE3A0101FF40FC0006DD7F7 /* Primitive.swift in Sources */,
+				4DE3A0171FF40FC0006DD7F7 /* Ray.swift in Sources */,
+				4DE3A00E1FF40FC0006DD7F7 /* Node.swift in Sources */,
+				4DE39FF61FF40F6A006DD7F7 /* NodeTests.swift in Sources */,
+				4DE3A0181FF40FC0006DD7F7 /* Mesh.swift in Sources */,
+				4DE3A00F1FF40FC0006DD7F7 /* Utils.swift in Sources */,
+				4DE39FF81FF40F6A006DD7F7 /* TriangleTests.swift in Sources */,
+				4DE3A00D1FF40FC0006DD7F7 /* Geometry.swift in Sources */,
+				4DE3A0191FF40FC0006DD7F7 /* Extensions.swift in Sources */,
+				4DE39FFA1FF40F6A006DD7F7 /* FaceTests.swift in Sources */,
+				4DE39FF91FF40F6A006DD7F7 /* MeshTests.swift in Sources */,
+				4DE3A0141FF40FC0006DD7F7 /* Basis.swift in Sources */,
+				4DE3A0151FF40FC0006DD7F7 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +458,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MeshLib/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanestudios.MeshLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -362,8 +480,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MeshLib/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanestudios.MeshLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -376,12 +495,16 @@
 		4DE39FEC1FF40F3B006DD7F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8QGX59NPW;
 				INFOPLIST_FILE = MeshLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanestudios.MeshLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeshLibTests/bridging-header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,12 +513,15 @@
 		4DE39FED1FF40F3B006DD7F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8QGX59NPW;
 				INFOPLIST_FILE = MeshLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanestudios.MeshLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeshLibTests/bridging-header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
